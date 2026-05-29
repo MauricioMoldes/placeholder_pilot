@@ -21,7 +21,7 @@ export default function App() {
           MDxCore Unit
         </p>
 
-       </div>
+        
       </div>
     </div>
   );
