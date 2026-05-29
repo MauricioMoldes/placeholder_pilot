@@ -21,14 +21,7 @@ export default function App() {
           MDxCore Unit
         </p>
 
-        {/* Contact */}
-        <div className="text-sm text-sky-800 space-y-1">
-          <p>Afsnit 4113</p>
-          <p>Blegdamsvej 9</p>
-          <p>2100 København Ø</p>
-          <p>Telefon: +45 3545 4113</p>
-          <p>E-mail: genomiskmedicin.rigshospitalet@regionh.dk</p>         
-        </div>
+       </div>
       </div>
     </div>
   );
