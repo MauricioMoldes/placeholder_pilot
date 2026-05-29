@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="min-h-screen bg-sky-50 flex items-center justify-center p-6">
+      <div className="w-full max-w-xl bg-white rounded-xl shadow-md border border-sky-100 p-8 text-center">
+        
+        {/* Logo */}
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Rigshospitalet_logo.svg/960px-Rigshospitalet_logo.svg.png?_=20171103201311"
+          alt="Rigshospitalet logo"
+          className="h-16 mx-auto mb-6"
+        />
+
+        {/* Title */}
+        <h1 className="text-2xl font-semibold text-sky-900 mb-2">
+          Pilot launching soon
+        </h1>
+
+        <p className="text-sky-700 mb-6">
+          MDxCore Unit
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        {/* Contact */}
+        <div className="text-sm text-sky-800 space-y-1">
+          <p>Afsnit 4113</p>
+          <p>Blegdamsvej 9</p>
+          <p>2100 København Ø</p>
+          <p>Telefon: +45 3545 4113</p>
+          <p>E-mail: genomiskmedicin.rigshospitalet@regionh.dk</p>         
+        </div>
+      </div>
     </div>
   );
 }
 
-export default App;
